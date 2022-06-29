@@ -19,3 +19,8 @@ quantDown.addEventListener('click', function(e)){
     updateQuantity(`Quantity: ${quantity}`)
 })
 
+// add event listener to increase quantity
+quantUp.addEventListener('click', function(){
+    quantity++
+    updateQuantity(`Quantity: ${quantity}`)
+})
