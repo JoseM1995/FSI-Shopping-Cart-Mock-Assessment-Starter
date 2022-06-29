@@ -11,3 +11,11 @@ let quantity = 1
 const quantDown = document.querySelector('quantity-down')
 const quantUp = document.querySelector('quantity-up')
 
+// add event listener to decrease quantity
+quantDown.addEventListener('click', function(e)){
+    if (quantity > 0) {
+        quantity--
+    }
+    updateQuantity(`Quantity: ${quantity}`)
+})
+
