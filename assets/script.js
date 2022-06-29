@@ -8,8 +8,8 @@ let quantity = 1
 
 // buttons
 
-const quantDown = document.querySelector('quantity-down')
-const quantUp = document.querySelector('quantity-up')
+const quantDown = document.querySelector('#quantity-down')
+const quantUp = document.querySelector('#quantity-up')
 
 // add event listener to decrease quantity
 quantDown.addEventListener('click', function(e)){
